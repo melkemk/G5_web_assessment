@@ -14,6 +14,9 @@ const config: Config = {
       },
       fontFamily: {
         'im-fell-french-canon': ['"IM FELL French Canon"', 'serif'],
+        'montserrat': ['"Montserrat"', 'sans-serif'],
+        'monofett': ['"Monofett"', 'cursive'], 
+
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

@@ -1,13 +1,21 @@
-import React from 'react'
-import Upper from './upper'
-import BlogList  from  './blogCard';
-function Blogs() {
+'use client';
+import React, { useState } from 'react';
+import Upper from './upper';
+import BlogList from './blogs';
+
+const BlogPage = () => {
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const handleSearchChange = (term: string) => {
+    setSearchTerm(term);
+  };
+
   return (
     <div>
-      <Upper/>
-      <BlogList/>
+      <Upper onSearchChange={handleSearchChange} />
+      <BlogList searchTerm={searchTerm} />
     </div>
-  )
-}
+  );
+};
 
-export default Blogs
+export default BlogPage;

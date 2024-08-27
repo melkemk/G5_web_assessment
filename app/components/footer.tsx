@@ -29,8 +29,8 @@
             <Image src={bottom} width={296} height={221} alt="people" />
             </div>
             <div className="flex flex-col space-y-4 pt-5 text-2xl font-semibold max-w-[394px]">         <div>Get involved in improving tech education in Africa!</div>
-            <div className="h-[50px] w-32 bg-primary flex items-center justify-center mx-auto text-white">
-                Support us{" "}
+            <div className="h-[50px] w-[240px] bg-primary flex items-center justify-center mx-auto text-white rounded-full">
+                Support us
             </div>
             </div>
             <div className="flex flex-col space-y-2">
@@ -53,7 +53,7 @@
             <div className="text-secondary">New Blogs</div>
             </div>
         </div>
-        <div className="border-t border-gray-300 mt-4 pt-4 flex justify-between items-center">
+        <div className="border-t border-gray-300 mt-4 pt-4 flex justify-between items-center pl-10 pr-10">
             <div>2020 Africa to Silicon Valley, Inc. All right reserved.</div>
             <Copy />
         </div>
