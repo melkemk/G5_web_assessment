@@ -8,6 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: "#264FAD",
+        secondary: "#9CA3AF", // Add your secondary color here
+      },
+      fontFamily: {
+        'im-fell-french-canon': ['"IM FELL French Canon"', 'serif'],
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -17,4 +24,5 @@ const config: Config = {
   },
   plugins: [],
 };
+
 export default config;
